@@ -3,7 +3,6 @@
 #include "ChooseNextWaypoint.h"
 #include "AIController.h"
 #include "PatrolRoute.h"
-#include "PatrollingGuard.h" // TODO remove coupling
 #include "BehaviorTree/BlackboardComponent.h"
 
 EBTNodeResult::Type UChooseNextWaypoint::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
